@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/xiaochaoshi/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#efe6d6" />
+    <title>小超市</title>
+    <script type="module" crossorigin src="/xiaochaoshi/assets/index-BZe0jEok.js"></script>
+    <link rel="stylesheet" crossorigin href="/xiaochaoshi/assets/index-2NYUAV_T.css">
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <div class="brand">
+          <span class="logo" aria-hidden="true"></span>
+          <div>
+            <h1>小超市</h1>
+            <p id="manager-line">店长还没起名</p>
+          </div>
+        </div>
+        <div class="metrics" aria-label="账本">
+          <div class="metric"><span>现金</span><strong id="cash">¥0</strong></div>
+          <div class="metric"><span>当日营收</span><strong id="revenue">¥0</strong></div>
+          <div class="metric"><span>当日利润</span><strong id="profit">¥0</strong></div>
+          <div class="metric"><span>单价</span><strong id="price">¥15</strong></div>
+        </div>
+        <div class="daybox">
+          <div class="day-row"><span id="day-label">第 1 天</span><span id="clock-label">尚未营业</span></div>
+          <div class="track" aria-hidden="true"><div id="clock-bar"></div></div>
+          <div class="speeds" id="speeds" role="group" aria-label="时间速度"></div>
+        </div>
+      </header>
+      <div id="layout">
+        <div id="stage">
+          <canvas id="game" aria-label="小超市平面，俯视格子"></canvas>
+          <div id="banner" data-testid="banner" hidden></div>
+          <div id="toast" hidden></div>
+          <div id="bubble" data-testid="bubble"></div>
+        </div>
+        <aside id="side">
+          <section class="panel" id="hud" aria-label="营业状态"></section>
+          <section class="panel" id="staff" aria-label="员工"></section>
+          <section class="panel" id="select" aria-label="选中的家具"></section>
+        </aside>
+      </div>
+      <footer id="dock">
+        <div class="tools" id="tools" aria-label="建造"></div>
+        <p id="econ-note"></p>
+        <div class="actions" id="actions"></div>
+      </footer>
+    </div>
+    <div id="modal" hidden></div>
+  </body>
+</html>
