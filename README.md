@@ -1,5 +1,5 @@
 # 小超市
 
-直接复制 ‘ https://umiii777.github.io/xiaochaoshi/ ’ 到网页栏即可打开。
+直接打开 https://umiii777.github.io/xiaochaoshi/?new=1
 
-给店长起名，雇收银和理货，摆货架和引流，点员工调薪或加班，再开始营业。想从头再来，打开 https://umiii777.github.io/xiaochaoshi/?new=1 。
+给店长起名，沿后墙摆货，点员工调薪或换班，再开始营业。店助只留一句：下一步是管人还是改建，看标题和金圈。想从头再来，用上面的 `?new=1`。
